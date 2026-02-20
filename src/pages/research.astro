@@ -1,0 +1,109 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { profile } from "@/settings";
+import BetterIcon from "@/components/ui/BetterIcon.astro";
+import List from "@/components/ui/List.astro";
+import { RESEARCH_ICONS } from "@/data/researchIcons";
+
+const { research_areas, fullName } = profile;
+---
+
+<Layout title={`Research | ${fullName}`}>
+  <div class="prose max-w-none">
+    <h1 class="text-3xl font-bold mb-8">Research Statement</h1>
+
+    <div class="mb-12">
+      <p class="text-lg mb-6">
+        My research focuses on the design and optimization of
+        nano-reinforced and low-carbon cementitious materials for
+        sustainable and resilient infrastructure. By tailoring the
+        nano- and micro-scale structure of the cementitious matrix, I
+        aim to control early-age rheology while enhancing long-term
+        mechanical performance and durability.
+      </p>
+      <p class="text-lg mb-6">
+        I work at the intersection of materials science and structural
+        engineering, combining multiscale experimental testing with
+        advanced characterization techniques (SEM–EDS, XRD, FTIR,
+        Raman, AFM–QNM/nano-IR, nano-CT, calorimetry, TGA, rheometry).
+        This approach enables a fundamental understanding of how SCMs,
+        nanomaterials, and hybrid fiber systems modify the
+        microstructure of cementitious binders and translate into
+        improved toughness, stiffness, and resistance to deterioration
+        mechanisms such as alkali–silica reaction (ASR).
+      </p>
+    </div>
+
+    <h2 class="text-2xl font-bold mb-6">Research Areas</h2>
+    <div class="grid gap-8 mb-12">
+      {
+        research_areas.map((area) => (
+          <div class="flex gap-6 items-center">
+            <BetterIcon>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+                class="size-6 stroke-accent"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d={
+                    RESEARCH_ICONS[area.field as keyof typeof RESEARCH_ICONS]
+                      ?.path || RESEARCH_ICONS["computer-science"].path
+                  }
+                />
+              </svg>
+            </BetterIcon>
+            <div>
+              <h3 class="text-xl font-semibold mb-2">{area.title}</h3>
+              <p class="text-base">{area.description}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <List
+      listTitle="Current Projects"
+      listItems={[
+        {
+          title: "CNT–calcined clay blends in PLC/OPC concretes",
+          description:
+            "Development of nano-modified binders using CNTs and calcined clays to improve flexural strength, elastic modulus, and pre-crack energy absorption in structural concretes.",
+        },
+        {
+          title: "Low-embodied-carbon concretes and CO\u2082 utilization",
+          description:
+            "Integration of SCMs, biochar, and CO\u2082-utilizing strategies to reduce cement clinker content while maintaining or enhancing mechanical performance and durability.",
+        },
+        {
+          title: "ASR mitigation using metakaolin–CNT systems",
+          description:
+            "Tailoring microstructure and C–S–H chemistry with metakaolin and CNTs to increase alkali binding, reduce ASR expansion, and preserve stiffness and toughness under aggressive exposure.",
+        },
+        {
+          title: "Rheology and early-age behavior of nano-modified concretes",
+          description:
+            "Linking particle-scale interactions and nanofiller networks to fresh-state rheology, pumpability, and buildability for advanced applications such as 3D printing.",
+        },
+      ]}
+    />
+
+    <h2 class="text-2xl font-bold mb-6">Research Impact</h2>
+    <p class="text-lg mb-6">
+      The overarching goal of my work is to enable the next generation
+      of high-performance, low-carbon concrete systems. By combining
+      SCMs, nanomaterials, and multiscale characterization, my research
+      provides mechanistic insight and practical mix-design strategies
+      that can be translated into structural applications. This includes
+      concretes with significantly enhanced toughness and stiffness,
+      mixtures that mitigate ASR while retaining mechanical performance,
+      and binder systems that contribute to meaningful reductions in the
+      carbon footprint of infrastructure without compromising safety
+      or service life.
+    </p>
+  </div>
+</Layout>

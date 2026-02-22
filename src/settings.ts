@@ -1,53 +1,54 @@
 export const profile = {
-  fullName: 'Rohitashva K. Singh',
+  fullName: 'Mohammad Jaberizadeh',
   title: 'Dr.', // title shown in sidebar before the name
-  institute: 'Postdoc at the University of Louisville', // hero subtitle
-  author_name: 'Rohitashva K. Singh',
+  institute:
+    'Postdoctoral Research Associate, Center for Advanced Construction Materials (CACM) — The University of Texas at Arlington', // hero subtitle
+  author_name: 'Mohammad Jaberizadeh',
 
   research_areas: [
     {
-      title: 'Nano-reinforced cementitious composites',
+      title: 'Advanced cementitious composites',
       description:
-        'CNT/CNF-modified binders and hybrid fiber systems to enhance tensile strength, toughness, and post-crack energy absorption.',
+        'Design, testing, and optimization of high-performance mortars and concretes for infrastructure applications, balancing strength, toughness, and long-term durability.',
       field: 'materials',
     },
     {
-      title: 'Low-embodied-carbon & CO₂-utilizing concretes',
+      title: 'Fiber-reinforced concrete & shrinkage control',
       description:
-        'SCMs (calcined clays, slag, fly ash), biochar, and mineralization strategies to reduce cement-related emissions.',
-      field: 'sustainability',
+        'Use of fibrillar cellulose fibers and other reinforcements to control autogenous shrinkage and improve cracking resistance and energy absorption.',
+      field: 'mechanics',
     },
     {
-      title: 'Concrete rheology & early-age behavior',
+      title: 'Durability, curing & service-life performance',
       description:
-        'Tailoring fresh-state rheology for pumpability, workability, and advanced applications such as 3D printing.',
-      field: 'rheology',
-    },
-    {
-      title: 'ASR mitigation & durability',
-      description:
-        'Metakaolin–CNT blends and microstructural engineering to control expansion and preserve mechanical performance.',
+        'Carbonation curing, permeability control, and durability evaluation (shrinkage, chloride ingress, freeze–thaw, carbonation) guided by ASTM/ACI/AASHTO procedures.',
       field: 'durability',
+    },
+    {
+      title: 'Concrete rheology & placement behavior',
+      description:
+        'Fresh-state characterization of self-consolidating concrete (SCC) including flowability, thixotropy, setting behavior, and placement optimization.',
+      field: 'rheology',
     },
   ],
 };
 
 // SOCIALS
 export const social = {
-  email: 'mailto:rohitashva.xlr8@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/rohitashvasingh/',
-  x: 'https://x.com/hitromarku',
+  email: 'mailto:jaberizadeh.m@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/mohammad-jaberizadeh-ph-d-34544698/?trk=opento_nprofile_details', // TODO: add Mohammad's LinkedIn URL
+  x: '',
   github: '',
   gitlab: '',
-  scholar: 'https://scholar.google.com/citations?user=4YWjnXIAAAAJ&hl=en',
+  scholar: 'https://scholar.google.com/citations?user=-UOgb3QAAAAJ&hl=en', // TODO: add Mohammad's Google Scholar URL
   inspire: '',
   arxiv: '',
-  orcid: 'https://orcid.org/0009-0001-1583-9445',
+  orcid: '',
 };
 
 // TEMPLATE SETTINGS
 export const template = {
-  website_url: 'https://rohitashvasingh.com',
+  website_url: 'https://mohammadjaberizadeh.com', // TODO: update if different
   menu_left: false,
   transitions: true,
   lightTheme: 'light',
@@ -59,8 +60,8 @@ export const template = {
 
 // SEO
 export const seo = {
-  default_title: 'Dr. Rohitashva K. Singh',
+  default_title: 'Dr. Mohammad Jaberizadeh',
   default_description:
-    'Portfolio of Dr. Rohitashva K. Singh, materials and structural engineer specializing in nano-reinforced cementitious composites, sustainable concrete, and durability.',
-  default_image: '/images/rohitbanner.png',
+    'Portfolio of Dr. Mohammad Jaberizadeh, civil engineer and advanced infrastructure materials researcher focused on high-performance cementitious composites, durability, curing, and concrete rheology.',
+  default_image: '/images/profile_pictures.jpg', // TODO: replace with Mohammad banner/headshot image
 };

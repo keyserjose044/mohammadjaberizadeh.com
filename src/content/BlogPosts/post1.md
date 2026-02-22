@@ -1,105 +1,65 @@
 ---
-title: "Optimizing Nano-Reinforced Cementitious Composites"
-date: "2025-01-18"
-tags: ["Cementitious Materials", "Nanomaterials", "Research"]
-excerpt: "A brief overview of how CNT–calcined clay systems improve flexural strength, rheology, and durability in modern concrete materials."
+title: "Shrinkage Control and Toughness in Fiber-Reinforced Cementitious Composites"
+date: "2026-02-22"
+tags: ["Concrete Materials", "Fiber Reinforcement", "Durability"]
+excerpt: "How fibrillar cellulose fibers can improve cracking resistance by reducing autogenous shrinkage while maintaining strength and energy absorption in mortar and concrete mixtures."
 heroImage: "/images/blog-placeholder.jpg"
 ---
 
-# Optimizing Nano-Reinforced Cementitious Composites
+# Shrinkage Control and Toughness in Fiber-Reinforced Cementitious Composites
 
-Advances in nanomaterial dispersion and SCM-based binder systems have opened new opportunities for designing high-performance, low-carbon concrete. In this post, I provide a brief overview of my recent work on **CNT–calcined clay blends** and their impact on mechanical behavior and microstructure.
+Early-age cracking is one of the most common pathways to premature durability problems in concrete. Even when compressive strength targets are met, uncontrolled **autogenous shrinkage** (especially in low w/b mixtures) can create microcracks that later accelerate transport-driven deterioration.
 
----
+In my work at the **Center for Advanced Construction Materials (CACM)**, I study how *fiber reinforcement strategies* can be used as practical tools to reduce shrinkage-driven cracking while preserving — or improving — mechanical performance.
 
-## Why Nanomaterials?
+## Why autogenous shrinkage matters
 
-Carbon nanotubes (CNTs) offer:
+Autogenous shrinkage is primarily associated with self-desiccation in cementitious systems. It is most pronounced when:
 
-- extremely high tensile strength  
-- multi-scale crack-bridging capabilities  
-- the ability to modify C–S–H chemistry  
-- improvements in stiffness and post-crack energy absorption
+- water-to-binder ratio is low,
+- hydration consumes pore water rapidly,
+- internal relative humidity drops early, and
+- restrained deformation creates tensile stresses before the matrix has sufficient tensile capacity.
 
-Even at dosages as low as **0.05–0.1 wt%**, CNTs influence both the **fresh-state behavior** and **hardened-state performance** of cementitious materials.
+This combination makes early-age cracking a risk even in otherwise “good” mixes.
 
----
+## What fibers can do (and what they *cannot*)
 
-## Key Findings From Experimental Work
+Fibers are not a cure-all, and they do not “stop shrinkage.” What they *can* do is improve the system’s tolerance to shrinkage by:
 
-### 1. **Flexural Strength & Modulus**
-CNT-reinforced metakaolin blends showed:
+- **bridging microcracks** as they form,
+- redistributing stress and delaying localization,
+- increasing **post-crack energy absorption**, and
+- improving overall crack control (crack spacing and crack width).
 
-- **88% increase** in flexural strength  
-- **107% increase** in elastic modulus  
-- significantly enhanced crack-resistance and ductility
+The end goal is not “zero shrinkage” — it is **reduced cracking risk** with reliable performance.
 
-These improvements were validated through **three-point bending**, **TPFM fracture testing**, and **digital microscopy** of crack propagation.
+## Fibrillar cellulose fibers as reinforcement
 
----
+A key focus has been the use of **fibrillar cellulose fibers** as reinforcement in mortar and concrete systems. These fibers have a high surface area and interact strongly with the cementitious matrix, which can influence both fresh-state behavior and early-age deformation response.
 
-### 2. **Rheological Behavior**
-Adding CNTs can slightly increase yield stress while improving particle suspension stability.  
-This is important for:
+In experimental programs, performance is evaluated using a combination of:
 
-- pumpability  
-- uniform fiber distribution  
-- advanced applications such as **3D printing**
+- shrinkage measurements (autogenous and related indicators),
+- compressive and flexural strength,
+- fracture behavior / toughness metrics, and
+- energy absorption capacity (post-crack response).
 
----
+## Practical takeaway for mix optimization
 
-## Experimental Methods
+A simple, field-relevant way to think about this is:
 
-1. **CNT Dispersion**  
-   Acid-functionalization + ultra-sonication to improve hydrophilicity.
+1. **Define the performance problem** (cracking risk, shrinkage sensitivity, durability exposure).
+2. **Control the basics first** (mixture proportions, curing, placement quality).
+3. Add fibers as an *engineering control* to improve crack resistance and post-crack behavior.
+4. Verify with targeted testing (shrinkage + toughness/energy absorption), not just compressive strength.
 
-2. **Binder Preparation**  
-   Metakaolin replacement levels from **10–20%** were tested.
+This is the mindset that makes fiber reinforcement useful in infrastructure work: decisions are made based on measurable performance, not assumptions.
 
-3. **Characterization Tools**  
-   - SEM–EDS  
-   - XRD  
-   - FTIR  
-   - Raman  
-   - AFM–QNM  
-   - TGA  
-   - Nano-CT  
+## Where this is going
 
----
+Current work extends beyond reinforcement alone and looks at how *mix design + curing + protection systems* combine to control long-term performance. For infrastructure applications, the real question is not “what is the strongest mix?” — it is:
 
-## Microstructural Insights
+> **What mix will keep performing after years of real exposure, restraint, and service demands?**
 
-> CNTs reduce the Ca/Si ratio of C–S–H in the interfacial transition zone, producing a denser, more polymerized silicate structure.
-
-This is a key mechanism behind the observed increase in modulus and toughness.
-
----
-
-## A Note on Data Processing
-
-Here’s a simple expression used for estimating fracture energy:
-
-G_f = ∫ P(u) du / (b × d)
-
-
-Where:
-
-- *P(u)* is the load–CMOD curve  
-- *b* is specimen width  
-- *d* is specimen depth  
-
----
-
-## Looking Ahead
-
-My next steps include:
-
-- exploring **biochar–CNT hybrid systems**  
-- automated rheology-log processing  
-- scaling nanosystems for concrete applications  
-- integrating CO₂-utilizing materials into the same composite framework  
-
----
-
-If you'd like to follow future updates, feel free to connect with me on  
-[LinkedIn](https://www.linkedin.com/in/rohitashvasingh/) or check back on this site for new posts.
+If you’re working on concrete mixtures where early-age cracking is a concern, feel free to reach out — I’m always open to technical conversations and collaboration opportunities.

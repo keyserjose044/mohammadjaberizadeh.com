@@ -1,14 +1,22 @@
 export const experiences = [
-  {
-    company:
-      'Center for Advanced Construction Materials (CACM) — The University of Texas at Arlington',
-    time: 'Sep 2021 – Present',
-    title:
-      'Postdoctoral Research Associate / Concrete Materials Research Engineer (U.S. DOT–sponsored projects)',
-    location: 'Arlington, TX, USA',
-    description:
-      'Leads experimental programs on advanced cementitious composites for infrastructure, including mix design optimization, shrinkage control, durability testing, and service-life performance assessment. Executes ASTM/AASHTO testing (compressive/flexural strength, fracture behavior, permeability, shrinkage) and translates results into practical recommendations. Develops technical documentation and supports project teams with materials selection, curing strategies, and constructability-focused performance troubleshooting.',
-  },
+{
+  company:
+    'Center for Advanced Construction Materials (CACM) — The University of Texas at Arlington',
+  time: 'Dec 2025 – Present',
+  title: 'Postdoctoral Research Associate',
+  location: 'Arlington, TX, USA',
+  description:
+    'Conducts advanced experimental research on cementitious composites for infrastructure applications, including mix design optimization, durability testing, and performance evaluation. Executes ASTM/AASHTO testing and contributes to research deliverables, technical reports, and project recommendations.',
+},
+{
+  company:
+    'Center for Advanced Construction Materials (CACM) — The University of Texas at Arlington',
+  time: 'Aug 2020 – Dec 2025',
+  title: 'Graduate Research Assistant (Ph.D. Researcher)',
+  location: 'Arlington, TX, USA',
+  description:
+    'Performed doctoral research on advanced cementitious composites, including fiber-reinforced systems, shrinkage control, curing methods, and durability evaluation. Designed and tested mortar and concrete mixtures, conducted mechanical and durability testing, and published peer-reviewed research.',
+},
   {
     company: 'Department of Civil Engineering — The University of Texas at Arlington',
     time: 'Aug 2024 – Present',
